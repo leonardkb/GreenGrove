@@ -166,11 +166,10 @@ function Navbar() {
           </motion.div>
         </div>
       </motion.nav>
-      {/* Conditionally render the menu for sm, md, xsm screen sizes */}
       <div
         className={`${
           showMenu ? "flex" : "hidden"
-        } flex-col justify-center items-center w-full lg:hidden h-96 p-4 bg-green-400 text-white`}
+        } flex-col justify-center items-center w-full lg:hidden h-96 p-4 bg-green-400 text-white absolute`}
         ref={menuRef}
       >
         <motion.ul
@@ -221,7 +220,7 @@ function Navbar() {
       </div>
 
       <motion.div
-        className={`${showSearch ? "lg:flex md:flex" : "hidden"} w-full h-20 sm:hidden xsm:hidden justify-center items-center`}
+        className={`${showSearch ? "lg:flex md:flex" : "hidden"} w-full h-20 sm:hidden xsm:hidden justify-center items-center absolute`}
         animate={searchAnimation}
       >
         <input
