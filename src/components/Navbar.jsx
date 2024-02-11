@@ -194,7 +194,7 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.8, ease: "easeOut" }}
           >
-            <NavLink to="/about"></NavLink>
+            <NavLink to="/about">About</NavLink>
           </motion.li>
           <motion.li
             className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300 border-2 border-white p-2 w-36 text-center rounded-lg"
