@@ -81,7 +81,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="w-full " ref={navRef}>
+    <nav className="w-full max-w-[100vw]  " ref={navRef}>
       <motion.nav
         className="w-full lg:flex justify-start items-center"
         initial={{ opacity: 0, y: -20 }}
@@ -169,7 +169,7 @@ function Navbar() {
       <div
         className={`${
           showMenu ? "flex" : "hidden"
-        } flex-col justify-center items-center w-full lg:hidden h-96 p-4 bg-green-400 text-white absolute`}
+        } flex-col justify-center items-center w-full lg:hidden h-96 p-4 bg-green-400 text-white absolute z-30`}
         ref={menuRef}
       >
         <motion.ul
@@ -220,7 +220,7 @@ function Navbar() {
       </div>
 
       <motion.div
-        className={`${showSearch ? "lg:flex md:flex" : "hidden"} w-full h-20 sm:hidden xsm:hidden justify-center items-center absolute`}
+        className={`${showSearch ? "lg:flex md:flex" : "hidden"} w-full h-20 sm:hidden xsm:hidden justify-center items-center absolute z-20`}
         animate={searchAnimation}
       >
         <input
