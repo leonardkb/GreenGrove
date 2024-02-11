@@ -240,7 +240,6 @@ function Home() {
       <div className="lg:px-20 px-2 bg-[#FDF9ED] mb-10">
         <FramerExperiences/>
       </div>
-      <Footer/>
     </div>
   );
 }
