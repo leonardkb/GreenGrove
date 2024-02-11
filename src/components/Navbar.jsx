@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { FiSearch, FiMenu } from "react-icons/fi";
+import { useInView } from "react-intersection-observer";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
@@ -95,7 +97,7 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             >
-              GreenGrove
+              <NavLink to="/"> GreenGrove</NavLink>
             </motion.h1>
 
             <div className="flex lg:hidden p-3">
@@ -118,7 +120,7 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
             >
-              Home
+              <NavLink to="/">Home</NavLink>
             </motion.li>
             <motion.li
               className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300"
@@ -126,7 +128,7 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             >
-              About
+              <NavLink to="/about">About</NavLink>
             </motion.li>
             <motion.li
               className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300"
@@ -134,7 +136,7 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
             >
-              Product
+              <NavLink to="/product"> Product</NavLink>
             </motion.li>
             <motion.li
               className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300"
@@ -150,7 +152,8 @@ function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.2, ease: "easeOut" }}
             >
-              Contact
+              <NavLink to="/contact">              Contact</NavLink>
+
             </motion.li>
           </ul>
         </div>
@@ -220,7 +223,9 @@ function Navbar() {
       </div>
 
       <motion.div
-        className={`${showSearch ? "lg:flex md:flex" : "hidden"} w-full h-20 sm:hidden xsm:hidden justify-center items-center absolute z-20`}
+        className={`${
+          showSearch ? "lg:flex md:flex" : "hidden"
+        } w-full h-20 sm:hidden xsm:hidden justify-center items-center absolute z-20`}
         animate={searchAnimation}
       >
         <input
