@@ -62,19 +62,19 @@ const SelectionComponent = () => {
               newspaper="Daily News"
               title="Breaking News: Exciting Developments in Agriculture"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              imageUrl="https://example.com/news-image-1.jpg"
+              imageUrl="https://i.pinimg.com/564x/e4/f3/50/e4f350e5d2e38410e923eedef3914d86.jpg"
             />
             <NewsArticle
               newspaper="Weekly Gazette"
               title="Innovative Solutions for Sustainable Farming Practices"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              imageUrl="https://example.com/news-image-2.jpg"
+              imageUrl="https://i.pinimg.com/564x/c9/7a/91/c97a916688dfc68a6d45b80f4a9a0984.jpg"
             />
             <NewsArticle
               newspaper="Agriculture Times"
               title="Global Collaboration to Address Climate Change in Agriculture"
               description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-              imageUrl="https://example.com/news-image-3.jpg"
+              imageUrl="https://i.pinimg.com/564x/40/ec/84/40ec8457ee3df1b7ffbe4d1edf718f7c.jpg"
             />
           </>
         )}

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import tracktor from '../images/Kubota M7 151 Tractor_ Price, Specs, Review & Features.jpeg'
 const Product = ({ name, description, imageUrl, priceRange }) => (
   <div className="border p-4 mb-4 flex flex-col items-center">
     <img src={imageUrl} alt={name} className="w-32 h-32 object-cover mb-2" />
@@ -22,7 +22,7 @@ const ProductSection = () => {
       priceRange: "20,000 - 200,000+",
       description:
         "Versatile workhorse for various tasks. Performs plowing, planting, cultivating, harvesting, and hauling. Available in different sizes and engine power for diverse farm needs.",
-      imageUrl: "https://example.com/tractor.jpg",
+      imageUrl: "https://i.pinimg.com/564x/77/1a/43/771a437b3836d45e07fae5648136321c.jpg",
       category: "equipment",
     },
     {
@@ -30,7 +30,7 @@ const ProductSection = () => {
       priceRange: "100,000 - 500,000+",
       description:
         "Efficient grain crop harvester. Cuts, threshes, and separates grain from straw in one pass. Size and capacity vary depending on farm size and crop type.",
-      imageUrl: "https://example.com/combine-harvester.jpg",
+      imageUrl: "https://i.pinimg.com/564x/6e/be/2a/6ebe2a819c99a0cff7b330d7ca14ea77.jpg",
       category: "equipment",
     },
     {
@@ -38,7 +38,7 @@ const ProductSection = () => {
       priceRange: "5,000 - 50,000+",
       description:
         "Precise seed planter for efficient crop growth. Ensures even crop growth and optimizes yield through accurate depth and spacing control. Different types cater to various seeds and planting methods.",
-      imageUrl: "https://example.com/seeder.jpg",
+      imageUrl: "https://i.pinimg.com/736x/b9/39/ae/b939aefa9c5e2dd64d24602f616d721c.jpg",
       category: "equipment",
     },
     {
@@ -46,7 +46,7 @@ const ProductSection = () => {
       priceRange: "1,000 - 50,000+",
       description:
         "Applies pesticides, herbicides, and fertilizers accurately. Available in handheld, tractor-mounted, or aerial options for diverse farm sizes and application needs.",
-      imageUrl: "https://example.com/sprayer.jpg",
+      imageUrl: "https://i.pinimg.com/736x/f6/6e/1b/f66e1bd1558beeaee970b082d47764fa.jpg",
       category: "equipment",
     },
     {
@@ -54,7 +54,7 @@ const ProductSection = () => {
       priceRange: "5,000 - 100,000+",
       description:
         "Efficient water delivery system for crops. Conserves water and improves crop yield through various systems like sprinklers, drip irrigation, and center pivots.",
-      imageUrl: "https://example.com/irrigation-system.jpg",
+      imageUrl: "https://i.pinimg.com/564x/ef/23/a5/ef23a51c79246afd2e84f79d5a70b420.jpg",
       category: "equipment",
     },
     {
@@ -62,7 +62,7 @@ const ProductSection = () => {
       priceRange: "5,000 - 50,000+",
       description:
         "Controlled environment for year-round crop production. Protects crops from weather extremes and pests, enabling consistent agricultural production. Various sizes and types available.",
-      imageUrl: "https://example.com/greenhouse.jpg",
+      imageUrl: "https://i.pinimg.com/564x/31/51/f4/3151f47732ec89d0171cf99419e7e937.jpg",
       category: "equipment",
     },
     {
@@ -70,7 +70,7 @@ const ProductSection = () => {
       priceRange: "5,000 - 20,000+",
       description:
         "Compresses straw, hay, or silage into bales. Facilitates easier storage and transportation of harvested materials. Baling capacity and type vary depending on farm needs and crop type.",
-      imageUrl: "https://example.com/baler.jpg",
+      imageUrl: "https://i.pinimg.com/564x/71/c6/2d/71c62dec3dd492fe38a5ec83cf823ebf.jpg",
       category: "equipment",
     },
     {
@@ -78,7 +78,7 @@ const ProductSection = () => {
       priceRange: "5,000 - 20,000+",
       description:
         "Efficient and hygienic milk extraction from cows. Improves milk quality and production compared to hand milking. Various milking machine types cater to different herd sizes and needs.",
-      imageUrl: "https://example.com/milking-machine.jpg",
+      imageUrl: "https://i.pinimg.com/736x/a5/04/56/a50456b323282d6b0fc4006842b30d6b.jpg",
       category: "equipment",
     },
     {
@@ -86,7 +86,7 @@ const ProductSection = () => {
       priceRange: "Price varies",
       description:
         "Multipurpose aerial tool for crop monitoring, spraying, and data collection. Provides aerial insights and automates tasks, improving efficiency and precision. Capabilities and price vary depending on model and purpose.",
-      imageUrl: "https://example.com/drone.jpg",
+      imageUrl: "https://i.pinimg.com/564x/e6/58/e4/e658e488ac5711e4cffc3412ac18ff45.jpg",
       category: "equipment",
     },
   ];
