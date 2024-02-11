@@ -1,8 +1,7 @@
-# React + Vite
+# Green Grove
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Green-Grove is a project aimed at promoting sustainable and green practices in agriculture. It provides a platform for users to explore and adopt eco-friendly solutions for cultivating crops, managing resources, and enhancing overall agricultural productivity.
