@@ -185,7 +185,8 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.6, ease: "easeOut" }}
           >
-            Home
+            <NavLink to="/">Home</NavLink>
+
           </motion.li>
           <motion.li
             className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300 border-2 border-white p-2 w-36 text-center rounded-lg"
@@ -193,7 +194,7 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.8, ease: "easeOut" }}
           >
-            About
+            <NavLink to="/about"></NavLink>
           </motion.li>
           <motion.li
             className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300 border-2 border-white p-2 w-36 text-center rounded-lg"
@@ -201,7 +202,8 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 2, ease: "easeOut" }}
           >
-            Product
+            <NavLink to="/product">            Product</NavLink>
+
           </motion.li>
           <motion.li
             className="mx-6 text-2xl cursor-pointer hover:text-green-500 transition duration-300 border-2 border-white p-2 w-36 text-center rounded-lg"
@@ -217,7 +219,8 @@ function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 2.4, ease: "easeOut" }}
           >
-            Contact
+            <NavLink to="/contact">            Contact</NavLink>
+
           </motion.li>
         </motion.ul>
       </div>
